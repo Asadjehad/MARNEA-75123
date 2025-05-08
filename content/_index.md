@@ -1,6 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title:MARNEA
+        Research Group
 date: 2022-10-24
 type: landing
 
