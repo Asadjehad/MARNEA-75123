@@ -11,6 +11,8 @@ sections:
         Research Group
       image:
         filename: logo.png
+    design:
+    css_class: small-hero-text
       text: |
         <br>
 
