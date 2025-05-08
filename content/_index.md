@@ -10,7 +10,7 @@ sections:
         MARNEA
         Research Group
       image:
-        filename: logo.png
+        filename: photo1.png
       text: |
         <br>
 
