@@ -7,11 +7,8 @@ sections:
   - block: hero
     content:
       title: ""
-    block: markdown
-    content:
-      title: "MARNEA Research Group"
       image:
-        filename: photo1.png  
+        filename: uploads/photo1.png  # تأكد أن الصورة في static/uploads/
     design:
       image_fullscreen: true
       image_position: top
@@ -36,6 +33,15 @@ sections:
       columns: "1"
       spacing:
         padding: ["20px", "20px", "20px", "20px"]
+
+
+  - block: markdown
+    content:
+      title: "MARNEA Research Group"
+      text: |
+        The **Advanced Materials Research Network for Energy Applications** is a collaborative group focused on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications. The network essentially aims to promote cooperation and create a dynamic of exchange between the involved researchers. The pooling of knowledge and know-how through this exchange network will allow the different actors to improve their efficiency, whether in solving technical problems in the development of materials or in the development of new technological applications.
+
+        **Some key 
 
   - block: collection
     content:
