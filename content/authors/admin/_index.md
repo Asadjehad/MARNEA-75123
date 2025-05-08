@@ -1,7 +1,7 @@
 ---
 title: LAHMAR Abdelilah
 role: Professor of Materials Science
-avatar_filename: whatsapp-image-2025-04-30-at-12.12.06_d2036648.jpg
+avatar_filename: p1.jpg
 bio: My research interests .....................................................
 interests:
   - Physics
