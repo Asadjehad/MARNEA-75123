@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title:""
 
 date: 2022-10-24
 type: landing
@@ -16,7 +16,7 @@ sections:
       text: |
         <br>
         
-        The ** Advanced Materials Research Network for Energy Applications** brings together scientists from across the globe to advance the development of functional materials for energy storage, conversion, catalysis, and sustainability through collaboration, knowledge-sharing, and simulation-based research.
+        The **Advanced Materials Research Network for Energy Applications** brings together scientists from across the globe to advance the development of functional materials for energy storage, conversion, catalysis, and sustainability through collaboration, knowledge-sharing, and simulation-based research.
   
   - block: collection
     content:
