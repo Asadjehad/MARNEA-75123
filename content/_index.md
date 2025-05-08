@@ -11,8 +11,6 @@ sections:
         Research Group
       image:
         filename: logo.png
-    design:
-    css_class: small-hero-text
       text: |
         <br>
 
@@ -21,20 +19,22 @@ sections:
         **Some key areas of interest within networking:**
 
         - **Energy Storage**: Development of advanced materials for energy storage systems.
-    
+
         - **Solar Energy**: Research into new materials for solar cells that can increase efficiency, lower costs, and enhance the scalability of solar energy technology.
-      
+
         - **Catalysis for Clean Energy**: Advanced materials used in catalysis for processes like hydrogen production, CO₂ capture, and conversion of biofuels.
-    
+
         - **Materials for Energy Conversion**: Development of new materials for electrocaloric, magnetocaloric, fuel cells, microbial fuel cells, thermoelectrics, etc.
-    
+
         - **Sustainable Materials**: Materials that are not only efficient but also sustainable, addressing issues like raw material sourcing, recyclability, and minimizing environmental impact.
-    
+
         - **Nanomaterials and Nanotechnology**: These materials can offer significant improvements in energy-related applications due to their unique properties at the nanoscale, such as increased surface area, better conductivity, or enhanced chemical reactivity.
-    
+
         - **Smart Materials**: Materials that can dynamically change in response to environmental conditions, enabling energy savings or more efficient use of energy.
-    
+
         - **Theory and Simulation of Materials**.
+    design:
+      css_class: small-hero-text
 
   - block: collection
     content:
