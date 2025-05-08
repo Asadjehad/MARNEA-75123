@@ -1,8 +1,6 @@
-/* تصغير حجم الخط لقسم hero */
+small-hero-text .hero-title,
 .small-hero-text h1,
-.small-hero-text .hero-title {
-  font-size: 2rem !important; /*0.5*/
-  line-height: 5;
+.small-hero-text h2 {
+  font-size: 2rem !important;
+  line-height: 1.2;
   font-weight: 600;
-}
-
