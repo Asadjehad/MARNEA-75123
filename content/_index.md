@@ -8,7 +8,7 @@ sections:
     content:
       title: ""
       image:
-        filename:photo1.png  
+        filename: uploads/photo1.png  
     design:
       image_fullscreen: true
       image_position: top
