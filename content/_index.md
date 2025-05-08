@@ -12,7 +12,7 @@ sections:
         MARNEA
         Research Group
       image:
-        filename: welcome.jpg
+        filename: logo.png
       text: |
         <br>
         
