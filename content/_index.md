@@ -7,6 +7,9 @@ sections:
   - block: hero
     content:
       title: ""
+    block: markdown
+    content:
+      title: "MARNEA Research Group"
       image:
         filename: photo1.png  
     design:
