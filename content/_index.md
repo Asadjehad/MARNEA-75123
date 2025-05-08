@@ -8,14 +8,14 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
+        MARNEA
         Research Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The ** Advanced Materials Research Network for Energy Applications** brings together scientists from across the globe to advance the development of functional materials for energy storage, conversion, catalysis, and sustainability through collaboration, knowledge-sharing, and simulation-based research.
   
   - block: collection
     content:
