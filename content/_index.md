@@ -1,12 +1,23 @@
 ---
-title: ""
+title: "MARNEA Research Group"
 date: 2022-10-24
 type: landing
+
+theme:
+  primary_color: "#005f73"
+  font: "Roboto"
 
 sections:
   - block: hero
     content:
-      title: ""
+      title: "Welcome to MARNEA Research Group"
+      subtitle: "Innovating Advanced Materials for Energy Applications"
+      background:
+        image: hero_energy.jpg
+        text_color_light: true
+    design:
+      fullscreen: true
+      overlay: true
 
   - block: markdown
     content:
@@ -17,27 +28,44 @@ sections:
       image_fullscreen: true
       image_position: top
 
+  - block: features
+    content:
+      title: "Key Research Areas"
+      features:
+        - title: "Energy Storage"
+          description: "Innovative materials powering the future of batteries and supercapacitors."
+          icon: battery
+        - title: "Solar Energy"
+          description: "Developing materials that enhance solar efficiency and sustainability."
+          icon: sun
+        - title: "Clean Energy Catalysis"
+          description: "Driving hydrogen production and carbon capture with advanced catalysts."
+          icon: flask
+        - title: "Energy Conversion"
+          description: "New materials for fuel cells, thermoelectrics, and calorics."
+          icon: bolt
+        - title: "Sustainable Materials"
+          description: "Materials that are efficient, recyclable, and environmentally friendly."
+          icon: leaf
+        - title: "Smart & Nanomaterials"
+          description: "Responsive and nanoscale materials transforming energy solutions."
+          icon: atom
+    design:
+      columns: "3"
+
   - block: markdown
     content:
-      title: "MARNEA Research Group"
+      title: "About MARNEA"
       text: |
-        The **Advanced Materials Research Network for Energy Applications** is a collaborative group focused on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications. The network essentially aims to promote cooperation and create a dynamic of exchange between the involved researchers. The pooling of knowledge and know-how through this exchange network will allow the different actors to improve their efficiency, whether in solving technical problems in the development of materials or in the development of new technological applications.
+        The **Advanced Materials Research Network for Energy Applications** is a collaborative group focused on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications.
 
-        **Some key areas of interest within networking**:
-        - Energy Storage: Development of advanced materials for energy storage systems.
-        - Solar Energy: Research into new materials for solar cells that can increase efficiency, lower costs, and enhance the scalability of solar energy technology.
-        - Catalysis for Clean Energy: Advanced materials used in catalysis for processes like hydrogen production, CO2 capture, and conversion of biofuels.
-        - Materials for Energy Conversion: Development of new materials for electrocaloric, magnetocaloric, fuel cells, microbial fuel cells, thermoelectrics, etc.
-        - Sustainable Materials: Materials that are not only efficient but also sustainable, addressing issues like raw material sourcing, recyclability, and minimizing environmental impact.
-        - Nanomaterials and Nanotechnology: These materials can offer significant improvements in energy-related applications due to their unique properties at the nanoscale, such as increased surface area, better conductivity, or enhanced chemical reactivity.
-        - Smart Materials: Materials that can dynamically change in response to environmental conditions, enabling energy savings or more efficient use of energy.
-        - Theory and simulation of materials
+        The network promotes cooperation and dynamic exchange between researchers, improving efficiency and innovation across key areas in energy science.
+    design:
+      columns: "1"
 
   - block: collection
     content:
       title: "Latest News"
-      subtitle: ""
-      text: ""
       count: 5
       filters:
         author: ""
@@ -54,8 +82,8 @@ sections:
 
   - block: markdown
     content:
-      title: ""
-      subtitle: ""
+      title: "Join Our Research Community"
+      subtitle: "Explore collaboration opportunities and cutting-edge materials science"
       text: ""
     design:
       columns: "1"
@@ -63,19 +91,18 @@ sections:
         image:
           filename: coders.jpg
           filters:
-            brightness: 1
-          parallax: false
+            brightness: 0.6
+          parallax: true
           position: center
           size: cover
           text_color_light: true
       spacing:
-        padding: ["20px", "0", "20px", "0"]
+        padding: ["60px", "0", "60px", "0"]
       css_class: fullscreen
 
   - block: collection
     content:
       title: "Latest Preprints"
-      text: ""
       count: 5
       filters:
         folders:
@@ -87,9 +114,8 @@ sections:
 
   - block: markdown
     content:
-      title: ""
-      subtitle: ""
+      title: "Our Team"
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
-      columns
+      columns: "1"
